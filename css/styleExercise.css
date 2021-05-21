@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+#HeaderPage{
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#MainPage{
+    background-color:white;
+    padding:10px;
+}
+.containerOfPage{
+    background-color:rgb(219, 219, 219);
+    border: 1px solid black;    
+}
+.row{
+    padding:10px;
+}

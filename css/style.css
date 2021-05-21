@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+.HeaderOfPage
+{
+    font-family: "lucida handwriting";
+    height:100px;
+    color: rgb(1, 129, 80);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;    
+    justify-content:center;
+}
+#NavOfPage{
+    z-index: 10;
+    overflow: hidden;
+    background-color: #333; 
+}
+#NavOfPage a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+#NavOfPage a:hover{
+    background-color:black;
+}
+.BodyOfPage{
+    position: relative;
+    height:auto;
+    width: 100%; 
+    display: block;   
+    background-color: #ffffff;
+}
+.MenuOfExercise{
+    overflow:scroll;
+    position: absolute;
+    height: 800px;
+    width:15%;
+    background-color: #E7E9EB;   
+}
+.ContainerOfPage{
+    margin-left: 15%;
+    position: absolute;
+    height: 800px;
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#Detail{
+    padding-top: 10px;
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    width:100%;
+    top:10px;
+    border-top: 2px solid rgb(16, 102, 30);
+}
+.MenuOfExercise a{
+    width: 100%;
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    color: #2c2c2c;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.MenuOfExercise a:hover
+{
+    color: #ffff;
+    background-color: rgb(1, 129, 80);
+}
+    /* width */
+    ::-webkit-scrollbar {
+    width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background:rgb(99, 99, 99); 
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: rgb(99, 99, 99); 
+    }
