@@ -2,11 +2,18 @@
     margin:0;
     padding:0;
 }
+.pre{
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
 .HeaderOfPage
 {
     font-family: "lucida handwriting";
     height:100px;
-    color: rgb(1, 129, 80);
+    color: #018150;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;    
@@ -16,24 +23,27 @@
     z-index: 10;
     overflow: hidden;
     background-color: #333; 
+    display:flex;
+    justify-content:center;
+    align-items: center;
 }
 #NavOfPage a {
-    float: left;
-    display: block;
+    display: inline-block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 20px;
     text-decoration: none;
     font-size: 20px;
+    
 }
 #NavOfPage a:hover{
     background-color:black;
+    transition: all 1.5s;
 }
 .BodyOfPage{
     position: relative;
     height:auto;
     width: 100%; 
-    display: block;   
     background-color: #ffffff;
 }
 .MenuOfExercise{
@@ -44,10 +54,10 @@
     background-color: #E7E9EB;   
 }
 .ContainerOfPage{
-    margin-left: 15%;
+    left: 15%;
     position: absolute;
     height: 800px;
-    width: 85%;
+    width: 70%;
     background-color: rgb(255, 255, 255);
 }
 .sticky {
@@ -55,13 +65,32 @@
     top: 0;
     width: 100%;
 }
-#Detail{
-    padding-top: 10px;
+.Detail{
+    padding-top: 50px;
     text-align: center;
-    background-color:rgb(255, 255, 255);
-    width:100%;
-    top:10px;
-    border-top: 2px solid rgb(16, 102, 30);
+    border-left: 2px rgb(14, 90, 61) solid;
+    right: 0;
+    position: absolute;
+    width: 15%;
+    height: 800px;
+    background-color: #ffffff;
+}
+.info{
+    position: relative;
+    padding-top: 0px;
+}
+.info a{
+    padding:10px;
+    font-weight: bold;
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+.info a:hover{
+    background-color: black;
+    color:white;
+    transition: all 0.5s;   
 }
 .MenuOfExercise a{
     width: 100%;
@@ -76,8 +105,16 @@
 }
 .MenuOfExercise a:hover
 {
+    transition: all 0.5s;
     color: #ffff;
-    background-color: rgb(1, 129, 80);
+    background-color: #018150;
+}
+.cardbox img:hover{
+    transition: all 0.5s;
+    width:110%;
+    height:110%;
+    margin-top:-5%;
+    margin-left:-5%;
 }
     /* width */
     ::-webkit-scrollbar {
