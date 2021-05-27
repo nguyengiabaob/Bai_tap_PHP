@@ -38,7 +38,7 @@
             <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>" validate>
             <div class="container fixcontainer">    
                 <div class="row">
-                    <label class="col-sm-4 col-form-label" for="validate1"> Nhập giờ :</label>
+                    <label class="col-sm-4 col-form-control" for="validate1"> Nhập giờ :</label>
                     <div class="col-sm-8">
                         <input type="text" class="form-control" id="validate1" placeholder="Press time" name="tinput" value="<?=$tinput?>" required>
                         <div class="valid-feedback">

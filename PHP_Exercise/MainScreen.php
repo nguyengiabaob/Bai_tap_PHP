@@ -18,7 +18,7 @@
     </div>
     <div class="BodyOfPage">
         <div class="MenuOfExercise">
-            <h3 style="background-color:#018150;color: #f5f5f5;padding-top: 10px;padding-bottom:10px;">Danh sách bài tập</h3>
+            <h3 style="background-color:#018150;color: #f5f5f5;padding-top: 10px;padding-bottom:10px;">Bài tập cơ bản</h3>
             <a target="detailExercise" href="Exercise/Bai_1.php">Bài 1</a>
             <a target="detailExercise" href="Exercise/Bai_2.php">Bài 2</a>
             <a target="detailExercise" href="Exercise/Bai_3.php">Bài 3</a>
@@ -29,15 +29,18 @@
             <a target="detailExercise" href="Exercise/Bai_8.php">Bài 8</a>
             <a target="detailExercise" href="Exercise/Bai_9.php">Bài 9</a>
             <a target="detailExercise" href="Exercise/Bai_10.php">Bài 10</a>
-            <a target="detailExercise" href="Exercise/Bai_11.php">Bài 11</a>
-            <a target="detailExercise" href="Exercise/Bai_12.php">Bài 12</a>
-            <a target="detailExercise" href="Exercise/Bai_13.php">Bài 13</a>
-            <a target="detailExercise" href="Exercise/Bai_14.php">Bài 14</a>
-            <a target="detailExercise" href="Exercise/Bai_15.php">Bài 15</a>
-            <a target="detailExercise" href="Exercise/Bai_16.php">Bài 16</a>
-            <a target="detailExercise" href="Exercise/Bai_17.php">Bài 17</a>
-            <a target="detailExercise" href="Exercise/Bai_18.php">Bài 18</a>
-            <a target="detailExercise" href="Exercise/Bai_19.php">Bài 19</a>
+            <h3 style="background-color:#018150;color: #f5f5f5;padding-top: 10px;padding-bottom:10px;">Bài tập mảng</h3>
+            <a target="detailExercise" href="Exercise/Bai_Mang_1.php">Bài 1</a>
+            <a target="detailExercise" href="Exercise/Bai_Mang_2.php">Bài 2</a>
+            <a target="detailExercise" href="Exercise/Bai_Mang_3.php">Bài 3</a>
+            <a target="detailExercise" href="Exercise/Bai_Mang_4.php">Bài 4</a>
+            <a target="detailExercise" href="Exercise/Bai_Mang_5.php">Bài 5</a>
+            <a target="detailExercise" href="Exercise/Bai_Mang_6.php">Bài 6</a>
+            <a target="detailExercise" href="Exercise/Bai_Mang_7.php">Bài 7</a>
+            <a target="detailExercise" href="Exercise/Bai_Mang_8.php">Bài 8</a>
+            <a target="detailExercise" href="Exercise/Bai_Mang_9.php">Bài 9</a>
+            <a target="detailExercise" href="Exercise/Bai_Mang_10.php">Bài 10</a>
+            <h3 style="background-color:#018150;color: #f5f5f5;padding-top: 10px;padding-bottom:10px;">Tập tin & thư mục</h3>
         </div>
         <div class="ContainerOfPage">
             <div style="width:100%;height: 100%;">
